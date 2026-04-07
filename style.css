@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.first,
+.second {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  margin: 0 auto;
+  color: white;
+  padding: 1rem;
+}
+.second {
+  background-color: rgb(3, 53, 59);
+}
+ul {
+  list-style: none;
+  display: flex;
+  column-gap: 2.4rem;
+  padding: 1rem 4rem;
+}
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 3rem;
+}
+main {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #e9dcc9;
+  /* border: 1px solid; */
+}
+article {
+  display: flex;
+  margin-block: 1rem;
+}
+h3 {
+  line-height: 2rem;
+  font-weight: lighter;
+}
+.img-div {
+  justify-content: center;
+  max-width: 50%;
+  padding: 1rem;
+}
+.content-div {
+  padding: 1rem 2rem;
+}
+table th {
+  text-align: start;
+  padding-block: 0.5rem;
+}
+td {
+  padding-left: 1rem;
+}
+.btn {
+  padding: 0.2rem 0.6rem;
+  background-color: rgb(243, 42, 42);
+  border: none;
+  color: white;
+  border-radius: 0.2rem;
+}
+span {
+  color: red;
+  font-size: 18px;
+}
+button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+.btn1 {
+  padding-inline: 3rem;
+  border-radius: 0.8rem;
+  border: none;
+  background-color: rgb(241, 241, 21);
+}
+.btn2 {
+  padding-inline: 3rem;
+  border-radius: 0.8rem;
+  border: none;
+  background-color: orange;
+}
+h1 {
+  text-align: center;
+  padding-block: 1rem;
+  color: green;
+}
