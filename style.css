@@ -99,12 +99,9 @@ h1 {
   width: 450px;
 }
 /* for mobile screen */
-@media (min-width: 600px) and (max-width: 768px) {
-  .ul1{
+@media (max-width: 768px) {
+  .ul1,.ul2{
     display: none;
-  }
-  .ul2{
-    column-gap: 0.5rem;
   }
   .first,.second{
     justify-content: space-between;
@@ -116,7 +113,7 @@ h1 {
     align-items: center;
   }
   .img {
-    max-width: 200px;
+    width: 200px;
   }
   .content-div{
     max-width: 50%;
