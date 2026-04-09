@@ -13,7 +13,7 @@
   color: white;
   padding: 1rem;
 }
-.size-1{
+.size-1 {
   width: 20px;
   height: 20px;
 }
@@ -100,55 +100,87 @@ h1 {
 }
 /* for mobile screen */
 @media (max-width: 768px) {
-  .ul1,.ul2{
+  body{
+    border: 1px solid;
+  }
+  .ul1,
+  .ul2 {
     display: none;
   }
-  .first,.second{
+  .first,
+  .second {
     justify-content: space-between;
+    max-width: 100%;
+    margin: 0;
   }
-  article{
+  main{
+    max-width: 100%;
+    border: 1px solid;
+  }
+  article {
     display: flex;
     flex-direction: column;
   }
   .img {
-    max-width: 220%;
+    max-width: 100%;    
   }
-  .content-div{
-    max-width: 90%;
+  .img-div{
+    margin: auto;
+    max-width: 100%;
   }
-  h2{
+  .content-div {
+    max-width: 70%;
+    margin: auto;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h3 {
     font-size: 14px;
   }
-  h3{
+  th,
+  td {
     font-size: 13px;
   }
-  th,td{
-    font-size: 12px;
+  .btn2 {
+    padding-inline: 3.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: orange;
   }
 }
 
 /* for tablet screen */
-@media (min-width: 769px) and (max-width: 1024px){
-  article{
+@media (min-width: 769px) and (max-width: 1024px) {
+  body{
+    border: 1px solid ;
+  }
+  article {
     display: flex;
+  }
+  ul{
+    column-gap: 1rem;
   }
   .img {
     max-width: 100%;
     height: 100%;
   }
-  .content-div{
+  .content-div {
     width: 50%;
+  }
+  .btn2{
+    padding-inline: 3.5rem;
   }
 }
 /* for labtop screen */
-@media (min-width: 1025px){
-  article{
+@media (min-width: 1025px) {
+  article {
     display: flex;
   }
   .img {
     max-width: 100%;
   }
-  .content-div{
+  .content-div {
     width: 50%;
   }
 }
