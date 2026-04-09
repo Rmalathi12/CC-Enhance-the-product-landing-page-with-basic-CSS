@@ -13,7 +13,7 @@
   color: white;
   padding: 1rem;
 }
-.size-1 {
+.size-1{
   width: 20px;
   height: 20px;
 }
@@ -100,45 +100,36 @@ h1 {
 }
 /* for mobile screen */
 @media (max-width: 768px) {
-  .ul1,
-  .ul2 {
+  .ul1,.ul2{
     display: none;
   }
-  .first,
-  .second {
+  .first,.second{
     justify-content: space-between;
-    width: 100%;
-    margin: 0;
   }
-  main {
-    width: 100%;
-    margin: 0;
-  }
-  article {
+  article{
     display: flex;
     flex-direction: column;
   }
   .img {
     max-width: 220%;
   }
-  .content-div {
+  .content-div{
     max-width: 90%;
   }
-  h2 {
+  h2{
     font-size: 14px;
   }
-  h3 {
+  h3{
     font-size: 13px;
   }
-  th,
-  td {
+  th,td{
     font-size: 12px;
   }
 }
 
 /* for tablet screen */
-@media (min-width: 769px) and (max-width: 1024px) {
-  article {
+@media (min-width: 769px) and (max-width: 1024px){
+  article{
     display: flex;
   }
   .img {
@@ -147,8 +138,8 @@ h1 {
   }
 }
 /* for labtop screen */
-@media (min-width: 1025px) {
-  article {
+@media (min-width: 1025px){
+  article{
     display: flex;
   }
   .img {
